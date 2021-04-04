@@ -1,0 +1,55 @@
+/*Estilo de fuente */
+
+body{
+   font-family: calibri, Arial, sans-serif; 
+}
+
+/* Maim */
+main{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+/* Header*/
+header{
+    background-color: #ddd;
+    text-align: center;
+    line-height: 2;
+
+}
+h1,h2{
+    background-color: #bfbbfb;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+h1{
+    color: #1f497d;
+    letter-spacing: 0.4em;
+}
+h2{
+    color: #632423;
+    letter-spacing: 0.4em;
+}
+.item-detail{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    background-color: #1F497D;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.4em;
+    font-size: 24px;
+}
+.img{
+    width: 30px;
+    height: 30px;
+}
+footer p{
+    margin: auto;
+    font-size: 24px;
+}
+
