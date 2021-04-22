@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Proyecto 4/css/forms.css">
+</head>
+
+<body>
+    <div class="descuentos">
+        <p>20% de descuento en todos los productos</p>
+    </div>
+    <header>
+        <img class="tienda" src="/Proyecto 4/img/OBJECTS.png">
+        <h1> Nombre Tienda </h1>
+    </header>
+    <main>
+        <div class="mas">
+            <form action="index.html" method="GET">
+                <div class="campos1">
+                    <h2>Añadí tu super!</h2>
+                    <p>Agregá tu personaje favorito completando las opciones. </p>
+                
+                    <label for="nombre"> Nombre
+                        <input type="text" id="nombre" name="nombre" placeholder="" required>
+                    </label>
+                
+                    <label for="nacimiento">Fecha de Nacimiento
+                        <input type="date" id="nacimiento" name="nacimiento">
+                    </label>
+                
+                    <textarea name="comentario" id="comentario"></textarea>
+                
+                </div>
+
+                <div class="campos2">
+                    
+                        <label for="especie">Especie</label>
+                        <select class="especie" type="" id="Especie" name="especie" required>
+                            <option value="" selected disabled hidden>Especie</option>
+                            <option value="Especie">Cíborg</option>
+                            <option value="Especie">Extraterrestre</option>
+                            <option value="Especie">Humano</option>
+                            <option value="Especie">Murcielago</option>
+                            <option value="Especie">Otro bicho</option>
+                        </select>
+                    
+                    
+                        <label for="foto">Agregar Foto</label>
+                        <input type="file" id="foto" accept=".jpg, .pdf, .png" name="foto">
+                    
+                    
+                        <p>Poderes</p>
+                        <label for="poderes">Poderes</label>
+                        <input type="checkbox" id="Volar" name="poderes" value="volar">
+                        <label for="poderes">SuperInteligencia</label>
+                        <input type="checkbox" id="Volar" name="poderes" value="SuperInteligencia">
+                        <label for="poderes">Vista de rayo láser</label>
+                        <input type="checkbox" id="Volar" name="poderes" value="Vista de rayo láser">
+                        <hr/>
+                    
+                    </div>
+
+                </div>
+        </div>
+</body>
+
+</html>

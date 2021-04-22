@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Condensed: ital @ 0; 1 & display = swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    font-size: 16px;
+    padding: 3px 1px 4px 47px;
+}
+
+header {
+    background-color: #00669F;
+    height: 80px;
+    padding: 8px 1px 17px 47px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+
+}
+.tienda{
+    position: relative;
+    top: -5px;
+}
+h1{
+    color: white;
+    top: 19px;
+    left: 163px;
+    font-size: 35px;
+    position: absolute;
+    font-weight: normal;
+}
+
+nav{
+    height: 40px;
+    position: relative;
+    background-color: #001D2D;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+ul {
+    align-items: right;
+    position: absolute;
+    right: 20px;
+}
+ul a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+span{
+    position: relative;
+    color: white;
+    text-decoration: none;
+
+}
+
+.card{
+    border-radius: 20px 20px 0px 0px;
+    height: 641px;
+    margin: 100px 10px 0px 101px;
+    width: 310px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+   
+    
+
+body{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+
+}
+section{
+    justify-content: space-around;
+    float: left;
+   
+}
+.fas.fa-heart {
+    color: #f00;
+    font-size: 42px;
+    padding: 23px;
+}
+.imagen{
+
+    background-image: url(../img/bg-batman.jpg);
+    background-size: 200%;
+    background-position: -220px -96px;
+    border-radius: 30px 30px 0px 0px;
+    height: 236px;
+
+}
+
+.cara-batman{
+    
+    border-radius: 50%;
+    background-image: url(../img/batman.jpg);
+    background-position-x: 57%;
+    background-size: 289.5%;
+    height: 198px;
+    left: 18%;
+    width: 198px;
+    position: absolute;
+    top: -60%;
+
+}
+.batman1{
+    text-align: center;
+    margin: 13px;
+}
+.texto{
+    position: relative;
+    top: 95px;
+    padding: 14px;
+    line-height: 19px;
+}
+
+.info-batman{
+
+    background-color: #00669F;
+    color: white;
+    display: block;
+    font-size: 23px;
+    margin: 37px auto;
+    padding: 9px;
+    text-align: center;
+    text-decoration: none;
+    width: 238px;
+
+}
+
+.imagen-2{
+
+    background-image: url(../img/bg-harley\ quinn.jpeg);
+    background-size: 135%;
+    background-position: -59px 0px;
+    background-repeat: no-repeat;
+    
+}
+.cara-hq{
+    
+    border-radius: 50%;
+    background-image: url(../img/harley\ quinn.jpeg);
+    background-size: 104.5%;
+    height: 200px;
+    left: 19%;
+    width: 200px;
+    position: absolute;
+    top: -60%;
+
+}
+
+.imagen-3{
+
+    background-image: url(../img/bg-superman.jpg);
+    background-size: 131%;
+    background-position: 1px -5px;
+    background-repeat: no-repeat;
+   
+    
+}
+.cara-superm{
+    border-radius: 50%;
+    background-image: url(../img/superman.jpg);
+    background-position-x: 48%;
+    background-size: 152.5%;
+    height: 200px;
+    left: 19%;
+    width: 200px;
+    position: absolute;
+    top: -60%;
+}
+footer{
+   
+    background-color: #00669f;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+      
+
+
+}
+
+.derechos{
+    background-color: #00669F;
+    color: white;
+    font-size: 21px;
+    padding: 15px;
+    text-align: center;
+    height: 48px;
+    
+   
+}
