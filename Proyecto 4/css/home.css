@@ -2,9 +2,9 @@
 
 *{
     box-sizing: border-box;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 
 .descuentos{
@@ -15,12 +15,12 @@
 
 header {
     background-color: #00669F;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     height: 80px;
     padding: 8px 1px 17px 47px;
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 
 }
 .tienda{
