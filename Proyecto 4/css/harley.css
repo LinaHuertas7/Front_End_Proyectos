@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Condensed: ital @ 0; 1 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    font-size: 16px;
+    padding: 3px 1px 4px 47px;
+}
+
+header {
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 90px;
+    padding: 8px 1px 17px 47px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 70px;  
+
+}
+body{
+    background-image: url(../img/bg-harley\ quinn.jpeg);
+    background-size: 127%;
+    background-position: 43% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card{
+    border-radius: 45px;
+    background-color: #F3F3F3;
+    display: inline-block;
+    margin: 13% 36%;
+    transition: all 1s;
+    width: 488px;   
+}
+
+.card h2 {
+    color: #2C0187;
+    font-size: 27px;
+    margin-bottom: 5px;
+    margin-top: 90px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.card p {
+    padding: 14px 32px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;        
+    line-height: 20px;
+
+}
+
+.card-img{
+    background-image: url(../img/harley\ quinn.jpeg);
+    background-size: 104.5%;
+    border-radius: 50%;
+    height: 185px;
+    left: 47.5%;
+    position: absolute;
+    top: 19%;
+    width: 185px;
+}
+ 
+.card-ab {
+    color: #FFFFFF;
+    background-color: #2C0187;
+    border-radius: 0px 0px 45px 45px;
+    display: inline-block;
+    height: 60px;
+    margin: 25px 0 0;
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+}
+
+span{
+    color: #2C0187;
+}
+
+.img-bate{
+    margin: 0px 0px 0px 89px;
+}
+.img-gun,.img-bazooka{
+    margin: 0px 0px 0px 50px;
+}
+
+.card:hover{
+    background-color: rgb(248, 188, 248);  
+} 
+
+footer{
+    background-color: #00669f;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.derechos{
+    background-color: #00669F;
+    color: white;
+    font-size: 21px;
+    height: 48px;
+    padding: 15px;
+    text-align: center;
+}

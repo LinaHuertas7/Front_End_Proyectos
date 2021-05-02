@@ -21,26 +21,29 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
-
 }
+
 .tienda{
     position: relative;
     top: -5px;
 }
+
 h1{
     color: white;
-    top: 19px;
-    left: 163px;
     font-size: 35px;
-    position: absolute;
     font-weight: normal;
+    left: 163px;
+    position: absolute;
+    top: 19px;
 }
 
 nav{
-    height: 40px;
-    position: relative;
     background-color: #001D2D;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 40px;
+    position: sticky;
+    top: 80px;
+    z-index: 10;
 }
 
 ul {
@@ -48,158 +51,174 @@ ul {
     position: absolute;
     right: 20px;
 }
+
 ul a {
-    padding: 10px;
-    display: inline-block;
-    text-decoration: none;
     color: white;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
 }
 
 span{
-    position: relative;
     color: white;
+    position: relative;
     text-decoration: none;
-
 }
 
 .card{
-    border-radius: 20px 20px 0px 0px;
-    height: 641px;
-    margin: 100px 10px 0px 101px;
-    width: 310px;
     background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 641px;    
+    position: relative;
+    transition: all 1.5s;
+    width: 28%;
 }
-   
-    
 
-body{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-
+.card:hover{
+    background-color: rgba(216, 213, 218, 0.685);
+    transform: scale(1.10);
 }
+
+main{
+    margin: 50px 80px 100px 80px;   
+}
+
+.plus{
+    background-image: url(../img/button.png);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    height: 71px;
+    position: fixed;
+    right: -4px;
+    top: 70%;
+    transition: all 1s;
+    width: 84px;
+    z-index: 10;
+}
+
+.info-batman:hover{
+    background-color: #001D2D;
+}
+
+.plus:hover{
+    background-image:url(../img/buttonNegro.png);
+    transform: scale(1.15);
+}
+
 section{
     justify-content: space-around;
-    float: left;
-   
+    display: flex;
 }
+
 .fas.fa-heart {
     color: #f00;
     font-size: 42px;
     padding: 23px;
+    transition: all 1s;
 }
-.imagen{
 
+.fas.fa-heart:hover{
+    color: aqua;
+    transform: scale(1.15);
+}
+
+.imagen{
     background-image: url(../img/bg-batman.jpg);
     background-size: 200%;
     background-position: -220px -96px;
     border-radius: 30px 30px 0px 0px;
     height: 236px;
-
 }
 
 .cara-batman{
-    
-    border-radius: 50%;
     background-image: url(../img/batman.jpg);
     background-position-x: 57%;
     background-size: 289.5%;
-    height: 198px;
-    left: 18%;
-    width: 198px;
+    border-radius: 50%;
+    height: 185px;
+    left: 22%;
     position: absolute;
-    top: -60%;
+    top: -100%;
+    width: 185px;
+}
 
-}
 .batman1{
+    margin: 20px;
     text-align: center;
-    margin: 13px;
 }
+
 .texto{
+    line-height: 19px;
+    padding: 14px;
     position: relative;
     top: 95px;
-    padding: 14px;
-    line-height: 19px;
 }
 
 .info-batman{
-
     background-color: #00669F;
+    bottom: 6%;
     color: white;
     display: block;
     font-size: 23px;
-    margin: 37px auto;
+    left: 21%;
     padding: 9px;
+    position: absolute;
     text-align: center;
     text-decoration: none;
-    width: 238px;
-
+    width: 60%;
 }
 
 .imagen-2{
-
     background-image: url(../img/bg-harley\ quinn.jpeg);
-    background-size: 135%;
     background-position: -59px 0px;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
+    background-size: 135%;
 }
+
 .cara-hq{
-    
-    border-radius: 50%;
     background-image: url(../img/harley\ quinn.jpeg);
     background-size: 104.5%;
-    height: 200px;
-    left: 19%;
-    width: 200px;
+    border-radius: 50%;
+    height: 185px;
+    left: 22%;
     position: absolute;
-    top: -60%;
-
+    top: -100%;
+    width: 185px;
 }
 
 .imagen-3{
-
     background-image: url(../img/bg-superman.jpg);
-    background-size: 131%;
     background-position: 1px -5px;
     background-repeat: no-repeat;
-   
-    
+    background-size: 131%;    
 }
+
 .cara-superm{
-    border-radius: 50%;
     background-image: url(../img/superman.jpg);
-    background-position-x: 48%;
+    background-position-x: 38%;
     background-size: 152.5%;
-    height: 200px;
-    left: 19%;
-    width: 200px;
+    border-radius: 50%;
+    height: 185px;
+    left: 22%;
     position: absolute;
-    top: -60%;
+    top: -100%;
+    width: 185px;
 }
+
 footer{
-   
     background-color: #00669f;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
     color: white;
-    text-align: center;
     margin-top: 40px;
-      
-
-
+    text-align: center;
+    width: 100%;
 }
 
 .derechos{
     background-color: #00669F;
     color: white;
     font-size: 21px;
-    padding: 15px;
-    text-align: center;
     height: 48px;
-    
-   
+    padding: 15px;
+    text-align: center;   
 }

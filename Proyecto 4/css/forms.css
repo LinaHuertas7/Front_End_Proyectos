@@ -1,149 +1,152 @@
 @import url('https://fonts.googleapis.com/css2? family = Roboto + Condensed: ital @ 0; 1 & display = swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
-
 
 .descuentos{
     background-color: #1CD1B0;
     font-size: 16px;
     padding: 3px 1px 4px 47px;
-    
 }
 
 header {
     background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 80px;
     padding: 8px 1px 17px 47px;
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .tienda{
     position: relative;
     top: -5px;
 }
+
 h1{
+    color: white;
     display: inline-block;
     font-size: 30px;
-    color: white;
-    top: 22px;
-    left: 163px;
-    font-size: 35px;
-    position: absolute;
     font-weight: normal;
-}
-
-h2{
-    font-family: "Inter", sans-serif;
-    font-size: 72px;
-    font-weight: bold;
-    color: #333333;
-    
+    left: 163px;
+    position: absolute;
+    top: 22px;
 }
 
 .logIn {
-    max-width: 600px;
     margin: 0 auto;
     margin-top: 83px;
-
+    max-width: 600px;
 }
 
 form{
     width: 620px;
-   
+}
+
+h2{
+    color: #333333;
+    font-family: "Inter", sans-serif;
+    font-size: 72px;
+    font-weight: bold;
 }
 
 form input {
-    width: 100%;
-    height: 60px;
-    font-size: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
     font-family: Karla;
+    font-size: 20px;
     font-weight: normal;
-}
-
-.select{
-    width: 100%;
     height: 60px;
-    font-size: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    font-family: Karla;
-    line-height: 25px;
-
+    width: 100%;
 }
 
 textarea{
-    height: 163px;
-    width: 100%;
-    padding: 22px 37px 38px 28px;
-    font-size: 16px;
-    line-height: 25px;
     font-family: Karla;
+    font-size: 16px;
     font-style: normal;
     font-weight: normal;
+    height: 163px;
+    line-height: 25px;
+    padding: 22px 37px 38px 28px;
+    width: 100%;
 }
+
+.select{
+    font-family: Karla;
+    font-size: 20px;
+    height: 60px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
 .campos{
-    margin: 30px 0px;
-    
+    margin: 30px 0px;    
 }
+
 .boton1{
-    border-radius: 23.011px;
-    background: #1CD1B0;
+    background-color: #1CD1B0;
     border: none;
+    border-radius: 23.011px;
     font-family: "Karla";
+    font-size: 24px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    
+    transition: all 1s;
 }
+
 .boton2{
-    border-radius: 23.011px;
     background-color: #888888;
-    color: white;
     border: none;
+    border-radius: 23.011px;
+    color: white;
     font-family: "Karla";
+    font-size: 24px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    transition: all 1s;
 }
 
 .boton1,.boton2{
-    width: 45%;
     margin: 2%;
+    width: 45%;
 }
+
+.boton1:hover,.boton2:hover{
+    transform: scale(1.1);
+}
+
 input::placeholder{
     color: #000000;
 }
 
-
 footer{
     margin-top: 136px;
 }
+
 .registro{
+    color: #00669F;
+    margin-top: 10px;
     text-align: center;
     text-decoration: none;
-    margin-top: 10px;
-    color: #00669F;
 }
+
 span{
-    color: #000000;
-    
+    color: #000000;  
 }
+
 .derechos{
     background-color: #00669F;
     color: white;
     font-size: 21px;
+    height: 48px;
     padding: 15px;
     text-align: center;
-    height: 48px;
-    
-   
 }

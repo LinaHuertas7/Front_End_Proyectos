@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Condensed: ital @ 0; 1 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    font-size: 16px;
+    padding: 3px 1px 4px 47px;
+}
+
+header {
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 80px;
+    padding: 8px 1px 17px 47px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.tienda{
+    position: relative;
+    top: -5px;
+}
+
+nav{
+    background-color: #001D2D;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 40px;
+    position: sticky;
+    top: 79px;
+    z-index: 10;
+}
+
+ul {
+    align-items: right;
+    right: 20px;
+    position: absolute;
+}
+
+ul a {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+span{
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+h1{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    left: 163px;
+    position: absolute;
+    top: 22px;
+}
+
+h2{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FBFFFD;
+    line-height: 72px;
+    text-align: center; 
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form input,select {
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    display: inline-block;
+    font-family: 'Karla';
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    height: 25px;
+    width: 57px;
+}
+
+.campos1{
+    display: inline-block;
+    margin: 40px 31px 0px 47px;
+    width: 39%;
+}
+
+textarea{
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    height: 334px;
+    line-height: 25px;
+    margin-top: 20px;
+    padding: 22px 37px 38px 28px;
+    width: 100%;
+}
+
+.mas {
+    background-color: #00669F;
+    border-radius: 49.0901px;
+    box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 30%);
+    height: 886px;
+    margin: 48px auto 48px;
+    padding: 23px 0px;
+    width: 711px;
+}
+
+form p{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+
+label{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.requerido::before{
+    content: "*";
+}
+
+.campos2{
+    display: inline-block;
+    margin: 30px 21px;
+    width: 39%;
+}
+
+.poderes > label{
+    display: block;
+    font-family: 'Karla';
+    font-style: normal;
+}
+
+.P1{
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    text-align: center;
+}
+
+.fotoc{
+    border-radius: 5px;
+}
+
+.personajes > label{
+    display: block;
+    font-family: 'Karla';
+    font-style: normal;
+}
+
+.boton1{
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    border: none;
+    height: 10%;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: bold;
+    left: 22.5%;
+    position: relative;
+    transition: all 1s;
+    width: 55%;
+}
+
+.boton1:hover{
+    background-color: #001D2D;
+    color: white;
+    transform: scale(1);
+}
+
+footer{
+    background-color: #00669f;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.derechos{
+    background-color: #00669F;
+    color: white;
+    height: 48px;
+    font-size: 21px;
+    text-align: center;
+    padding: 15px;   
+}
